@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../boards/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../Blog/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../Blog/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+AppConfig	../boards/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../Blog/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Board	../boards/admin.py	/^from .models import Board$/;"	kind:namespace	line:2
+Board	../boards/models.py	/^class Board(models.Model):$/;"	kind:class	line:5
+Board	../boards/tests.py	/^from .models import Board$/;"	kind:namespace	line:5
+Board	../boards/views.py	/^from boards.models import Board$/;"	kind:namespace	line:23
+BoardsConfig	../boards/apps.py	/^class BoardsConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../Blog/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../Blog/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HomeTests	../boards/tests.py	/^class HomeTests(TestCase):$/;"	kind:class	line:8
+INSTALLED_APPS	../Blog/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../Blog/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+MIDDLEWARE	../Blog/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Migration	../boards/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Post	../boards/models.py	/^class Post(models.Model):$/;"	kind:class	line:18
+ROOT_URLCONF	../Blog/settings.py	/^ROOT_URLCONF = 'Blog.urls'$/;"	kind:variable	line:54
+STATICFILES_DIRS	../Blog/settings.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:124
+STATIC_URL	../Blog/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+TEMPLATES	../Blog/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../Blog/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+TestCase	../boards/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:3
+Topic	../boards/models.py	/^class Topic(models.Model):$/;"	kind:class	line:12
+USE_I18N	../Blog/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../Blog/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../Blog/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+User	../boards/models.py	/^from django.contrib.auth.models import User$/;"	kind:namespace	line:2
+WSGI_APPLICATION	../Blog/settings.py	/^WSGI_APPLICATION = 'Blog.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../Blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../boards/__init__.py	1;"	kind:file	line:1
+__init__.py	../boards/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../boards/models.py	/^    def __str__(self):$/;"	kind:member	line:9
+admin	../Blog/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin	../boards/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin.py	../boards/admin.py	1;"	kind:file	line:1
+application	../Blog/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../boards/apps.py	1;"	kind:file	line:1
+board	../boards/models.py	/^    board = models.ForeignKey(Board, related_name='topics')$/;"	kind:variable	line:15
+board_topics	../boards/views.py	/^def board_topics(request, pk):$/;"	kind:function	line:29
+created_at	../boards/models.py	/^    created_at = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:21
+created_by	../boards/models.py	/^    created_by = models.ForeignKey(User, related_name='posts')$/;"	kind:variable	line:23
+db	../boards/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+deletion	../boards/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+dependencies	../boards/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+description	../boards/models.py	/^    description = models.CharField(max_length=100)$/;"	kind:variable	line:7
+django	../boards/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+field	../boards/migrations/0001_initial.py	/^            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='+', to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:55
+field	../boards/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='posts', to='boards.Topic'),$/;"	kind:variable	line:50
+fields	../boards/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	../boards/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:29
+fields	../boards/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:39
+get_wsgi_application	../Blog/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+home	../boards/tests.py	/^from .views import home$/;"	kind:namespace	line:4
+home	../boards/views.py	/^def home(request):$/;"	kind:function	line:25
+initial	../boards/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+last_updated	../boards/models.py	/^    last_updated = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:14
+manage.py	../manage.py	1;"	kind:file	line:1
+message	../boards/models.py	/^    message = models.TextField(max_length=4000)$/;"	kind:variable	line:19
+migrations	../boards/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+model_name	../boards/migrations/0001_initial.py	/^            model_name='post',$/;"	kind:variable	line:48
+model_name	../boards/migrations/0001_initial.py	/^            model_name='post',$/;"	kind:variable	line:53
+models	../boards/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:6
+models	../boards/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:7
+models	../boards/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../boards/models.py	1;"	kind:file	line:1
+name	../boards/apps.py	/^    name = 'boards'$/;"	kind:variable	line:5
+name	../boards/migrations/0001_initial.py	/^            name='Board',$/;"	kind:variable	line:20
+name	../boards/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:28
+name	../boards/migrations/0001_initial.py	/^            name='Topic',$/;"	kind:variable	line:38
+name	../boards/migrations/0001_initial.py	/^            name='topic',$/;"	kind:variable	line:49
+name	../boards/migrations/0001_initial.py	/^            name='updated_by',$/;"	kind:variable	line:54
+name	../boards/models.py	/^    name = models.CharField(max_length=30, unique=True)$/;"	kind:variable	line:6
+operations	../boards/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+os	../Blog/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../Blog/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+render	../boards/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:22
+resolve	../boards/tests.py	/^from django.urls import resolve$/;"	kind:namespace	line:2
+reverse	../boards/tests.py	/^from django.core.urlresolvers import reverse$/;"	kind:namespace	line:1
+setUp	../boards/tests.py	/^    def setUp(self):$/;"	kind:member	line:9
+settings	../boards/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:5
+settings.py	../Blog/settings.py	1;"	kind:file	line:1
+starter	../boards/models.py	/^    starter = models.ForeignKey(User, related_name='topics')$/;"	kind:variable	line:16
+subject	../boards/models.py	/^    subject = models.CharField(max_length=255)$/;"	kind:variable	line:13
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+test_board_topics_url_resolves_board_topics_view	../boards/tests.py	/^    def test_board_topics_url_resolves_board_topics_view(self):$/;"	kind:member	line:22
+test_board_topics_view_not_found_status_code	../boards/tests.py	/^    def test_board_topics_view_not_found_status_code(self):$/;"	kind:member	line:17
+test_board_topics_view_success_status_code	../boards/tests.py	/^    def test_board_topics_view_success_status_code(self):$/;"	kind:member	line:12
+test_home_url_resolves_home_view	../boards/tests.py	/^    def test_home_url_resolves_home_view(self):$/;"	kind:member	line:30
+test_home_view_status_code	../boards/tests.py	/^    def test_home_view_status_code(self):$/;"	kind:member	line:25
+tests.py	../boards/tests.py	1;"	kind:file	line:1
+topic	../boards/models.py	/^    topic = models.ForeignKey(Topic, related_name='posts')$/;"	kind:variable	line:20
+unicode_literals	../boards/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+updated_at	../boards/models.py	/^    updated_at = models.DateTimeField(null=True)$/;"	kind:variable	line:22
+updated_by	../boards/models.py	/^    updated_by = models.ForeignKey(User, null=True, related_name='+')$/;"	kind:variable	line:24
+url	../Blog/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../Blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	../Blog/urls.py	1;"	kind:file	line:1
+views	../Blog/urls.py	/^from boards import views$/;"	kind:namespace	line:19
+views.py	../boards/views.py	1;"	kind:file	line:1
+wsgi.py	../Blog/wsgi.py	1;"	kind:file	line:1
