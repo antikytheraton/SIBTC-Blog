@@ -100,6 +100,7 @@ email	../accounts/forms.py	/^    email = forms.CharField(max_length=254, require
 execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
 field	../boards/migrations/0001_initial.py	/^            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='+', to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:55
 field	../boards/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='posts', to='boards.Topic'),$/;"	kind:variable	line:50
+field_type	../boards/templatetags/form_tags.py	/^def field_type(bound_field):$/;"	kind:function	line:6
 fields	../accounts/forms.py	/^        fields = ('username', 'email', 'password1', 'password2')$/;"	kind:variable	line:9
 fields	../boards/forms.py	/^        fields = ['subject', 'message']$/;"	kind:variable	line:14
 fields	../boards/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
@@ -116,6 +117,7 @@ help_text	../boards/forms.py	/^        help_text='The max length of the text is 
 home	../boards/tests.py	/^from .views import home, board_topics, new_topic$/;"	kind:namespace	line:5
 home	../boards/views.py	/^def home(request):$/;"	kind:function	line:26
 initial	../boards/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+input_class	../boards/templatetags/form_tags.py	/^def input_class(bound_field):$/;"	kind:function	line:10
 last_updated	../boards/models.py	/^    last_updated = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:14
 manage.py	../manage.py	1;"	kind:file	line:1
 max_length	../boards/forms.py	/^        max_length=4000,$/;"	kind:variable	line:9
@@ -148,6 +150,7 @@ os	../Blog/wsgi.py	/^import os$/;"	kind:namespace	line:10
 os	../manage.py	/^import os$/;"	kind:namespace	line:2
 redirect	../accounts/views.py	/^from django.shortcuts import render, redirect$/;"	kind:namespace	line:2
 redirect	../boards/views.py	/^from django.shortcuts import render, get_object_or_404, redirect$/;"	kind:namespace	line:22
+register	../boards/templatetags/form_tags.py	/^register = template.Library()$/;"	kind:variable	line:3
 render	../accounts/views.py	/^from django.shortcuts import render, redirect$/;"	kind:namespace	line:2
 render	../boards/views.py	/^from django.shortcuts import render, get_object_or_404, redirect$/;"	kind:namespace	line:22
 resolve	../accounts/tests/test_view_signup.py	/^from django.urls import resolve$/;"	kind:namespace	line:4
@@ -167,6 +170,7 @@ signup	../accounts/views.py	/^def signup(request):$/;"	kind:function	line:7
 starter	../boards/models.py	/^    starter = models.ForeignKey(User, related_name='topics')$/;"	kind:variable	line:16
 subject	../boards/models.py	/^    subject = models.CharField(max_length=255)$/;"	kind:variable	line:13
 sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+template	../boards/templatetags/form_tags.py	/^from django import template$/;"	kind:namespace	line:1
 test_board_topics_url_resolves_board_topics_view	../boards/tests.py	/^    def test_board_topics_url_resolves_board_topics_view(self):$/;"	kind:member	line:48
 test_board_topics_view_contains_link_back_to_homepage	../boards/tests.py	/^    def test_board_topics_view_contains_link_back_to_homepage(self):$/;"	kind:member	line:27
 test_board_topics_view_contains_navigation_links	../boards/tests.py	/^    def test_board_topics_view_contains_navigation_links(self):$/;"	kind:member	line:52
